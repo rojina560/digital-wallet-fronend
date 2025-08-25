@@ -1,10 +1,15 @@
-
-const login = () => {
+import { LoginForm } from "@/modules/Authentication/LoginForm";
+const Login = () => {
     return (
-        <div>
-           this is login 
-        </div>
-    );
+    <div className="flex min-h-svh w-full items-center justify-center p-6 md:p-10">
+      <div className="w-full max-w-sm">
+        <LoginForm />
+      </div>
+    </div>
+  )
+
+
+    
 };
 
-export default login;
+export default Login;
