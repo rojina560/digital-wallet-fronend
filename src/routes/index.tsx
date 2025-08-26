@@ -1,6 +1,7 @@
 import App from "@/App";
-import Login from "@/pages/login";
-import Register from "@/pages/register";
+import Login from "@/pages/Login";
+import Register from "@/pages/Register";
+
 
 import { createBrowserRouter } from "react-router";
  export const router = createBrowserRouter([
